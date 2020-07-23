@@ -6,7 +6,7 @@ import threading
 import sys
 from socket import *
 import signal
-# 4 bytes of checksum, 4 bytes of packet type, 2 bytes of fragment number, 4 bytes of connection identifiier, 4 bytes of window
+# 4 bytes of checksum, 4 bytes of packet type, 2 bytes of fragment number, 4 bytes of connection identifier, 4 bytes of window
 # RCON = Request to connect
 # AKRQ = Acknowledge Request to connect
 # DATA = Data message
